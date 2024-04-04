@@ -22,14 +22,14 @@ updateArrowOpacity(carousel2, arrowBtns2);
 arrowBtns1.forEach(btn => {
     btn.addEventListener("click", () => {
         carousel1.scrollLeft += btn.id === "left" ? -firstCardWidth1 : firstCardWidth1;
-        updateArrowOpacity(carousel1, arrowBtns1); // Mettre à jour l'opacité après le défilement
+        updateArrowOpacity(carousel1, arrowBtns1); 
     });
 });
 
 arrowBtns2.forEach(btn => {
     btn.addEventListener("click", () => {
         carousel2.scrollLeft += btn.id === "left" ? -firstCardWidth2 : firstCardWidth2;
-        updateArrowOpacity(carousel2, arrowBtns2); // Mettre à jour l'opacité après le défilement
+        updateArrowOpacity(carousel2, arrowBtns2); 
     });
 });
 
@@ -40,6 +40,6 @@ function updateArrowOpacity(carousel, arrowBtns) {
     const isFirstCardVisible = scrollPosition === 0;
     const isLastCardVisible = scrollPosition >= maxScrollPosition - 1;
 
-    arrowBtns[0].style.opacity = isFirstCardVisible ? "0.3" : "1"; // Opacité de la flèche gauche
-    arrowBtns[1].style.opacity = isLastCardVisible ? "0.3" : "1"; // Opacité de la flèche droite
+    arrowBtns[0].style.opacity = isFirstCardVisible ? "0.3" : "1"; 
+    arrowBtns[1].style.opacity = isLastCardVisible ? "0.3" : "1"; 
 }
