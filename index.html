@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LeBienÊtre.fr</title>
+    <link rel="icon" type="image/png" href="/img/logo/LBE-rosace-noir.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="./script.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav role="navigation">
+        <div class="main-menu">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Info</li></a>
+              <a href="#"><li>Contact</li></a>
+              <a href="https://erikterwan.com/" target="_blank"
+                ><li>Show me more</li></a
+              >
+            </ul>
+          </div>
+
+          <img alt="logo LBE" src="/img/logo/LBE-allonge-blanc.svg" />
+
+          <ul class="user-menu">
+            <li>
+              <svg
+                width="24"
+                height="28"
+                viewBox="0 0 24 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12.334"
+                  cy="7"
+                  r="6.25"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M23.2254 26.582H0.774603C1.16054 20.7185 6.03882 16.082 12 16.082C17.9612 16.082 22.8395 20.7185 23.2254 26.582Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </li>
+
+            <li>
+              <svg
+                width="21"
+                height="27"
+                viewBox="0 0 21 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="0.75"
+                  y="7.75"
+                  width="19.5"
+                  height="18.5"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M5 12C5.00022 7 5.00039 1 10.5 1C15.9996 1 16 8 16 12"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="hero-header">
+        <div class="header-content">
+          <h1>Offrez-vous l'expérience bien-être parfaite</h1>
+          <form class="navbar-form" role="search">
+            <input
+              class="form-control"
+              placeholder="Une thématique, un partenaire ..."
+              name="srch-term"
+              id="srch-term1"
+              type="text"
+            />
+            <input
+              class="form-control"
+              placeholder="Une ville, une commune ..."
+              name="srch-term"
+              id="srch-term2"
+              type="text"
+            />
+            <button class="btn-search" type="submit">
+              <svg
+                width="25"
+                height="32"
+                viewBox="0 0 25 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="10.3122"
+                  cy="10.3122"
+                  r="9.56221"
+                  stroke="#31383F"
+                  stroke-width="1.5"
+                />
+                <rect
+                  x="13.3457"
+                  y="18.5938"
+                  width="2.7318"
+                  height="15.6867"
+                  transform="rotate(-36.1247 13.3457 18.5938)"
+                  fill="#31383F"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          Avec un choix de <span>700 types</span> de <span>soins</span> et
+          <span>expériences</span> bien-être, venez à la
+          <span>rencontre</span> de nos <span>partenaires</span> passionnés et
+          engagés. Leur intention est de vous procurer un
+          <span>bien-être</span> sincère, <span>authentique</span>, appuyé sur
+          la vérité d’une relation.
+        </p>
+      </section>
+
+      <section class="categ">
+        <div class="title-arrow">
+          <h2>Des EXPÉRIENCES à vivre et à offrir</h2>
+          <div class="arrow-wrapper">
+            <button id="left">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button id="right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <ul class="carousel">
+          <li class="categ-card">
+            <img src="./img/categories/SPA.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>SPA</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>SPA</h3>
+              <span>50 expériences</span>
+              <p>Balnéo, Hammam, Rituels, Sauna, Soins Spa, Spa privatif</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/categories/MASSAGES.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>MASSAGE</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>MASSAGE</h3>
+              <span>50 expériences</span>
+              <p>4 mains, à Domicile, Bébé, Bien-être, Couple/Duo, En...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/categories/BEAUTE.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>BEAUTÉ</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>BEAUTÉ</h3>
+              <span>50 expériences</span>
+              <p>Bronzage, Coiffure, Épilation, Minceur, Onglerie, Soins...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/categories/MIEUXETRE.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>MIEUX-ÊTRE</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>MIEUX-ÊTRE</h3>
+              <span>50 expériences</span>
+              <p>Coaching, Développement personnel, Gestion du stress, Na...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/categories/ACTIVITES.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>ACTIVITÉS</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>ACTIVITÉS</h3>
+              <span>50 expériences</span>
+              <p>Aériennes, Aquatiques, Nature, Alimentation, Art théra...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/categories/LIEUX.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>SÉJOURS</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>SÉJOURS</h3>
+              <span>50 expériences</span>
+              <p>Lieux d'exception, Chambre d'hote avec Spa, Voyages Bie...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="derniere-min">
+        <div class="dm-wrapper">
+          <div class="title-arrow">
+            <h2>Toutes nos DERNIÈRES MINUTES</h2>
+            <div class="arrow-wrapper">
+              <button id="left">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button id="right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <ul class="carousel">
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne et pla... - 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne- 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne- 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne- 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne- 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+
+            <li class="dm-card">
+              <img src="./img/dm/4721-VISU_1764.jpg" alt="" />
+              <div class="dm-content">
+                <h4>Spa privatif en duo + champagne- 2h30</h4>
+                <p class="dm-institut">
+                  Lorem Ipsum Dolor Institut - Centre de soin
+                </p>
+                <div class="dm-info">
+                  <div>
+                    <svg
+                      width="7"
+                      height="10"
+                      viewBox="0 0 7 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.5 4.75C3.16848 4.75 2.85054 4.6183 2.61612 4.38388C2.3817 4.14946 2.25 3.83152 2.25 3.5C2.25 3.16848 2.3817 2.85054 2.61612 2.61612C2.85054 2.3817 3.16848 2.25 3.5 2.25C3.83152 2.25 4.14946 2.3817 4.38388 2.61612C4.6183 2.85054 4.75 3.16848 4.75 3.5C4.75 3.66415 4.71767 3.8267 4.65485 3.97835C4.59203 4.13001 4.49996 4.26781 4.38388 4.38388C4.26781 4.49996 4.13001 4.59203 3.97835 4.65485C3.8267 4.71767 3.66415 4.75 3.5 4.75ZM3.5 0C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5C0 6.125 3.5 10 3.5 10C3.5 10 7 6.125 7 3.5C7 2.57174 6.63125 1.6815 5.97487 1.02513C5.3185 0.368749 4.42826 0 3.5 0Z"
+                        fill="#31383F"
+                      />
+                    </svg>
+                    <span class="dm-ville">Hesdin</span>
+                  </div>
+                  <div>
+                    <span class="dm-old-price">75€</span>
+                    <span class="dm-new-price">37€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dm-hover">
+                <a href="#" class="btn">Voir plus</a>
+                <a href="#" class="btn">Ajouter au panier</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="moments">
+        <div class="title-arrow">
+          <h2>Des MOMENTS pour TOUS</h2>
+          <div class="arrow-wrapper">
+            <button id="left">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button id="right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <ul class="carousel">
+          <li class="categ-card">
+            <img src="./img/categories/SPA.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>FUTURES MAMANS</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>FUTURE MAMAN</h3>
+              <span>50 expériences</span>
+              <p>Massage, Réflexologie, Sophrologie</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/moments/ELLE.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>POUR ELLE</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>POUR ELLE</h3>
+              <span>50 expériences</span>
+              <p>Soin du visage, Maquillage de soirée, Onglerie</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/moments/DUO.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>EN DUO</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>EN DUO</h3>
+              <span>50 expériences</span>
+              <p>Spa privatif, Massage en duo, Nuitée avec spa ...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/moments/LUI.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>POUR LUI</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>POUR LUI</h3>
+              <span>50 expériences</span>
+              <p>Massage, Développement personnel, Gestion du stress, Na...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/moments/ENFANTS.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>ENFANTS</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>ENFANTS</h3>
+              <span>50 expériences</span>
+              <p>Massage enfant, Activités plein air, Réflexologie</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+          <li class="categ-card">
+            <img src="./img/moments/BEBES.jpg" alt="" />
+            <div class="categ-info-start">
+              <h3>BÉBÉS</h3>
+              <span>50 expériences</span>
+            </div>
+            <div class="categ-info">
+              <h3>BÉBÉS</h3>
+              <span>50 expériences</span>
+              <p>Massage bébé, Atelier bébé, Baby yoga, Accompagnement ...</p>
+              <a href="#" class="btn">Voir plus</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="cheque">
+        <div class="cheque-wrapper">
+          <div class="title-xs">
+            <h2>Nos chèques cadeaux</h2>
+            <span>La certitude de faire plaisir !</span>
+          </div>
+          <img src="./img/autre/mockup-bon-50.png" alt="" />
+          <div class="cheque-d">
+            <div class="title-l">
+              <h2>Nos chèques cadeaux</h2>
+              <span>La certitude de faire plaisir !</span>
+            </div>
+            <p>
+              Il vous suffit juste de décider du montant que vous voulez offrir
+              ! L'heureux destinataire du chèque pourra alors choisir en toute
+              tranquillité la prestation et le professionnel en consultant la
+              liste des membres inscrits sur le site lebienetre.fr.
+            </p>
+            <div class="btn-wrapper">
+              <a href="#" class="btn">CHOISIR UN MONTANT</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rencontre">
+        <div class="title-arrow">
+          <h2>Venez RENCONTRER</h2>
+        </div>
+        <div class="rencontre-wrapper">
+          <img src="./img/dm/LBE-VISU_835.jpg" alt="" />
+          <div class="rencontre-d">
+            <div class="rencontre-d-top">
+              <h3>WELLNESS INSTITUT - CENTRE DE BEAUTÉ</h3>
+              <div class="rating">
+                <svg
+                  class="stars"
+                  width="155"
+                  height="31"
+                  viewBox="0 0 155 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z"
+                    fill="#DFB92B"
+                  />
+                  <path
+                    d="M46.5 0L49.98 10.7102H61.2414L52.1307 17.3295L55.6107 28.0398L46.5 21.4205L37.3893 28.0398L40.8693 17.3295L31.7586 10.7102H43.02L46.5 0Z"
+                    fill="#DFB92B"
+                  />
+                  <path
+                    d="M77.5 0L80.98 10.7102H92.2414L83.1307 17.3295L86.6107 28.0398L77.5 21.4205L68.3893 28.0398L71.8693 17.3295L62.7586 10.7102H74.02L77.5 0Z"
+                    fill="#DFB92B"
+                  />
+                  <path
+                    d="M108.5 0L111.98 10.7102H123.241L114.131 17.3295L117.611 28.0398L108.5 21.4205L99.3893 28.0398L102.869 17.3295L93.7586 10.7102H105.02L108.5 0Z"
+                    fill="#DFB92B"
+                  />
+                  <path
+                    d="M139.5 0L142.98 10.7102H154.241L145.131 17.3295L148.611 28.0398L139.5 21.4205L130.389 28.0398L133.869 17.3295L124.759 10.7102H136.02L139.5 0Z"
+                    fill="#DFB92B"
+                  />
+                </svg>
+                <span>(10/10)</span>
+              </div>
+              <div class="rencontre-ville">
+                <svg
+                  width="11"
+                  height="15"
+                  viewBox="0 0 11 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.5 7.125C4.97904 7.125 4.47942 6.92746 4.11104 6.57583C3.74267 6.22419 3.53571 5.74728 3.53571 5.25C3.53571 4.75272 3.74267 4.27581 4.11104 3.92417C4.47942 3.57254 4.97904 3.375 5.5 3.375C6.02096 3.375 6.52058 3.57254 6.88896 3.92417C7.25733 4.27581 7.46429 4.75272 7.46429 5.25C7.46429 5.49623 7.41348 5.74005 7.31476 5.96753C7.21605 6.19502 7.07136 6.40172 6.88896 6.57583C6.70656 6.74994 6.49002 6.88805 6.2517 6.98227C6.01338 7.0765 5.75795 7.125 5.5 7.125ZM5.5 0C4.04131 0 2.64236 0.553123 1.61091 1.53769C0.579463 2.52226 0 3.85761 0 5.25C0 9.1875 5.5 15 5.5 15C5.5 15 11 9.1875 11 5.25C11 3.85761 10.4205 2.52226 9.38909 1.53769C8.35764 0.553123 6.95869 0 5.5 0Z"
+                    fill="#31383F"
+                  />
+                </svg>
+                <span>HESDIN (59300)</span>
+              </div>
+            </div>
+            <div class="rencontre-info-wrapper">
+              <span>Son bon plan du moment :</span>
+              <h4>MASSAGE BALINAIS - 1H</h4>
+              <div class="prices">
+                <span class="dm-old-price">75€</span>
+                <span class="dm-new-price">37€</span>
+              </div>
+              <p>Expire dans 3j 6h</p>
+              <p>5 bons restants</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="instants">
+        <div class="instants-wrapper">
+          <div class="title-arrow">
+            <h2>Chaque INSTANT, son BIEN-ÊTRE</h2>
+            <div class="arrow-wrapper">
+              <button id="left">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button id="right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <ul class="carousel">
+            <li class="categ-card">
+              <img src="./img/instants/NAISSANCE.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>NAISSANCES</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>NAISSANCES</h3>
+                <span>50 instants</span>
+                <p>Massage, Réflexologie, Sophrologie</p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+            <li class="categ-card">
+              <img src="./img/instants/EVG.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>EVJF</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>EVJF</h3>
+                <span>50 instants</span>
+                <p>Soin du visage, Maquillage de soirée, Onglerie</p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+            <li class="categ-card">
+              <img src="./img/instants/EVJF.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>SAINT VALENTIN</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>SAINT VALENTIN</h3>
+                <span>50 instants</span>
+                <p>Spa privatif, Massage en duo, Nuitée avec spa ...</p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+            <li class="categ-card">
+              <img src="./img/instants/MARIAGE.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>REMERCIEMENT</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>REMERCIEMENT</h3>
+                <span>50 instants</span>
+                <p>
+                  Massage, Développement personnel, Gestion du stress, Na...
+                </p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+            <li class="categ-card">
+              <img src="./img/instants/ANNIVERSAIRE.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>ANNIVERSAIRE</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>ANNIVERSAIRE</h3>
+                <span>50 instants</span>
+                <p>Massage enfant, Activités plein air, Réflexologie</p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+            <li class="categ-card">
+              <img src="./img/instants/NAISSANCE.jpg" alt="" />
+              <div class="categ-info-start">
+                <h3>NAISSANCES</h3>
+                <span>50 instants</span>
+              </div>
+              <div class="categ-info">
+                <h3>NAISSANCES</h3>
+                <span>50 instants</span>
+                <p>Massage, Réflexologie, Sophrologie</p>
+                <a href="#" class="btn">Voir plus</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="mots">
+        <div class="title-arrow">
+          <h2>Vos PETITS MOTS sont des CADEAUX</h2>
+          <div class="arrow-wrapper">
+            <button id="left">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button id="right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <ul class="carousel">
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Je sens ton corps se tendre, ton coeur doit se détendre. ”
+              </p>
+              <span>T.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>BOUCHE DU RHONE (15)</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Quoi de mieux que de débuter en douceur avec ta moitié ?! ”
+              </p>
+              <span>P.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>62500 BETHUNE</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Quoi de mieux que de débuter en douceur avec ta moitié ?! ”
+              </p>
+              <span>S.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>62500 BETHUNE</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Je sens ton corps se tendre, ton coeur doit se détendre. ”
+              </p>
+              <span>T.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>62500 BETHUNE</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Je sens ton corps se tendre, ton coeur doit se détendre. ”
+              </p>
+              <span>T.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>62500 BETHUNE</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+
+          <li class="mot-card">
+            <div class="mot-top">
+              <p>
+                “ Quoi de mieux que de débuter en douceur avec ta moitié ?! ”
+              </p>
+              <span>P.</span>
+            </div>
+            <div class="mot-bas">
+              <span>Lorem Ipsum - Institut & Spa,</span>
+              <span>62500 BETHUNE</span>
+              <svg
+                width="124"
+                height="25"
+                viewBox="0 0 124 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4 0L15.184 8.56819H24.1931L16.9046 13.8636L19.6885 22.4318L12.4 17.1364L5.11146 22.4318L7.89544 13.8636L0.606899 8.56819H9.61603L12.4 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M37.2008 0L39.9848 8.56819H48.9939L41.7053 13.8636L44.4893 22.4318L37.2008 17.1364L29.9122 22.4318L32.6962 13.8636L25.4077 8.56819H34.4168L37.2008 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M62.0016 0L64.7855 8.56819H73.7947L66.5061 13.8636L69.2901 22.4318L62.0016 17.1364L54.713 22.4318L57.497 13.8636L50.2085 8.56819H59.2176L62.0016 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M86.7984 0L89.5824 8.56819H98.5915L91.303 13.8636L94.087 22.4318L86.7984 17.1364L79.5099 22.4318L82.2939 13.8636L75.0053 8.56819H84.0145L86.7984 0Z"
+                  fill="#DFB92B"
+                />
+                <path
+                  d="M111.599 0L114.383 8.56819H123.392L116.104 13.8636L118.888 22.4318L111.599 17.1364L104.311 22.4318L107.095 13.8636L99.8061 8.56819H108.815L111.599 0Z"
+                  fill="#DFB92B"
+                />
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <div class="about-g">
+          <h2>Pourquoi ce site ?</h2>
+          <span>La vie est une expérience sensorielle</span>
+        </div>
+        <div class="about-d">
+          <p>
+            Si tant est qu’il y ait une âme en chacun de nous, elle a besoin de
+            nos sens pour ressentir la vie.<br /><br />Nous en avons 5.<br /><br />Nourrissons-les
+            avec des expériences apaisantes et dynamisantes. Ce site à vocation
+            à ce que vous trouviez une expérience bien-être à vivre ou à offrir.
+            Il présente des professionnels passionnés et engagés dans leur
+            pratique. Ils ont investi personnellement du temps et de l’argent
+            pour se former pour s’équiper. Leur intention est de procurer un
+            bien-être sincère, authentique, appuyé sur la vérité d’une
+            relation.<br /><br />Et c’est ce qui donne toute la puissance aux
+            rencontres que vous ferez.
+          </p>
+        </div>
+      </section>
+
+      <section class="conseils">
+        <img src="./img/autre/noel.jpg" alt="" />
+        <div class="conseil-content">
+          <h2>Les conseils <span>cadeaux</span> des <span>Pros</span></h2>
+          <p>
+            Des idées de cadeaux bien-être à offrir à Noel : pour toute la
+            famille !
+          </p>
+          <a href="#" class="btn">DÉCOUVRIR</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

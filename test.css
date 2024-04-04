@@ -1,0 +1,66 @@
+.categ-card .img {
+    position: relative;
+  }
+  
+  .categ-card .img img {
+    width: 19vw;
+    max-width: 240px;
+    min-width: 140px;
+    object-fit: cover;
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+  }
+  
+  .categ-card-info {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: none; /* Définir le fond initial à "none" */
+    overflow: hidden; /* Cacher le contenu qui dépasse */
+    transition: background 0.3s; /* Transition pour le fond */
+  }
+  
+  .categ-card-info p,
+  .categ-card-info a {
+    display: none; /* Par défaut, cacher le <p> et le <a> */
+  }
+  
+  .categ-card-info:hover {
+    background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1)); /* Afficher le fond sur hover */
+  }
+  
+  .categ-card-info:hover p,
+  .categ-card-info:hover a {
+    display: block; /* Afficher le <p> et le <a> sur hover */
+    transition: ease-in-out;
+  }
+  
+  .categ-card-info a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .categ-card-info a:hover {
+    background-color: #DFB92B;
+    border: 2px solid #DFB92B;
+    color: #31383F;
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+  }
+  
+  
